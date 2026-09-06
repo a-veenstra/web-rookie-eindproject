@@ -1,0 +1,11 @@
+@import "tailwindcss";
+
+th,
+td {
+    border-bottom: 1px solid lightgray;
+    padding: 8px;
+}
+
+th {
+    text-align: start;
+}

@@ -1,0 +1,86 @@
+[
+    {
+        "id": 0,
+        "name": "Police Station (7498)",
+        "price": 99.99,
+        "amount_in_cart": 0,
+        "set_img_url": "https://cdn.rebrickable.com/media/sets/7498-1/16630.jpg"
+    },
+    {
+        "id": 1,
+        "name": "Colosseum (10276)",
+        "price": 649.99,
+        "amount_in_cart": 0,
+        "set_img_url": "https://cdn.rebrickable.com/media/sets/10276-1/75458.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Titanic (10294)",
+        "price": 679.99,
+        "amount_in_cart": 0,
+        "set_img_url": "https://cdn.rebrickable.com/media/sets/10294-1/93446.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Lion Knights' Castle (10305)",
+        "price": 459.95,
+        "amount_in_cart": 0,
+        "set_img_url": "https://cdn.rebrickable.com/media/sets/10305-1/152495.jpg"
+    },
+    {
+        "id": 4,
+        "name": "Lord of the Rings: Rivendell (10316)",
+        "price": 439.00,
+        "amount_in_cart": 0,
+        "set_img_url": "https://cdn.rebrickable.com/media/sets/10316-1/132394.jpg"
+    },
+    {
+        "id": 5,
+        "name": "Sagrada Família (21065)",
+        "price": 749.99,
+        "amount_in_cart": 0,
+        "set_img_url": "https://cdn.rebrickable.com/media/sets/21065-1/175336.jpg"
+    },
+    {
+        "id": 6,
+        "name": "Tree House (21318)",
+        "price": 239.00,
+        "amount_in_cart": 0,
+        "set_img_url": "https://cdn.rebrickable.com/media/sets/21318-1/21817.jpg"
+    },
+    {
+        "id": 7,
+        "name": "Pirates of Barracuda Bay (21322)",
+        "price": 399.99,
+        "amount_in_cart": 0,
+        "set_img_url": "https://cdn.rebrickable.com/media/sets/21322-1/56305.jpg"
+    },
+    {
+        "id": 8,
+        "name": "Hogwarts Castle (71043)",
+        "price": 359.99,
+        "amount_in_cart": 0,
+        "set_img_url": "https://cdn.rebrickable.com/media/sets/71043-1/15516.jpg"
+    },
+    {
+        "id": 9,
+        "name": "NINJAGO City Gardens (71741)",
+        "price": 369.00,
+        "amount_in_cart": 0,
+        "set_img_url": "https://cdn.rebrickable.com/media/sets/71741-1/80116.jpg"
+    },
+    {
+        "id": 10,
+        "name": "Millennium Falcon (75192)",
+        "price": 675.00,
+        "amount_in_cart": 0,
+        "set_img_url": "https://cdn.rebrickable.com/media/sets/75192-1/30881.jpg"
+    },
+    {
+        "id": 11,
+        "name": "Avengers Tower (76269)",
+        "price": 487.99,
+        "amount_in_cart": 0,
+        "set_img_url": "https://cdn.rebrickable.com/media/sets/76269-1/129297.jpg"
+    }
+]

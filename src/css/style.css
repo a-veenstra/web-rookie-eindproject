@@ -1,0 +1,34 @@
+@import "tailwindcss";
+
+.product {
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 12px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+strong {
+    margin-top: auto;
+}
+
+.product-afbeelding {
+    margin: auto;
+    margin-bottom: 16px;
+}
+
+.add-to-cart-knop {
+    color: red;
+    border: 1px solid red;
+    border-radius: 10px;
+    cursor: pointer;
+    padding: 6px 0;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.add-to-cart-knop:hover {
+    background-color: red;
+    color: white;
+}

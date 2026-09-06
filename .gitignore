@@ -200,7 +200,6 @@ __pycache__/
 .Python
 build/
 develop-eggs/
-dist/
 downloads/
 eggs/
 .eggs/
@@ -375,3 +374,20 @@ ehthumbs.db
 $RECYCLE.BIN/
 
 _NCrunch*
+
+# Logs
+pnpm-debug.log*
+
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?

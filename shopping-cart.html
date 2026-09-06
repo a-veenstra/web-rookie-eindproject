@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>LEGO Webshop</title>
+        <link rel="icon" type="image/png" href="/public/favicon.png" />
+        <link rel="stylesheet" href="/src/css/shopping-cart.css" />
+    </head>
+    <body>
+        <nav class="navbar bg-black w-full h-20 fixed flex flex-row justify-between">
+            <div class="start w-45 h-full flex justify-center">
+                <a href="index.html" class="flex flex-row items-center my-3">
+                    <img src="src/assets/LEGO-logo.png" class="h-15"
+                /></a>
+            </div>
+            <div class="end w-35.5 flex justify-center items-center">
+                <button
+                    class="text-white cursor-pointer hover:bg-neutral-700 hover:rounded-full w-10 h-10 flex justify-center items-center"
+                    id="reset-knop"
+                >
+                    <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="22"
+                        height="22"
+                        fill="currentColor"
+                        class="bi bi-trash-fill"
+                        viewBox="0 0 16 16"
+                    >
+                        <path
+                            d="M2.5 1a1 1 0 0 0-1 1v1a1 1 0 0 0 1 1H3v9a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V4h.5a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H10a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1zm3 4a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 .5-.5M8 5a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7A.5.5 0 0 1 8 5m3 .5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 1 0"
+                        />
+                    </svg>
+                </button>
+            </div>
+        </nav>
+        <h1 class="pt-25 text-3xl text-center">Winkelwagen</h1>
+        <div class="container flex flex-col mt-5 w-200 mx-auto">
+            <a href="index.html" class="underline text-blue-600 text-xs w-34">Ga naar productoverzicht</a>
+            <table id="tabel">
+                <tr>
+                    <th>Naam</th>
+                    <th>Aantal</th>
+                    <th>Prijs</th>
+                    <th>Totaal</th>
+                </tr>
+            </table>
+            <div id="totaal-div" class="flex justify-between text-xl mt-3">
+                <strong>Totaal</strong>
+                <strong id="totaal"></strong>
+            </div>
+            <a
+                id="bestel-knop"
+                class="text-[red] hover:text-white bg-white hover:bg-[red] text-center border border-[red] rounded-lg w-full mt-3 py-2"
+                href="order-confirmation.html"
+            >
+                Afrekenen
+            </a>
+        </div>
+        <script type="module" src="/src/js/shopping-cart.js"></script>
+    </body>
+</html>

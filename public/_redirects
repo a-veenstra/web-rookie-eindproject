@@ -1,0 +1,5 @@
+/admin                      /orders.html        200
+/admin/orders.html          /orders.html        200
+/admin/products.html        /products.html      200
+/admin/add-product.html     /add-product.html   200
+/admin/edit-product.html    /edit-product.html  200

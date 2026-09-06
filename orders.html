@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>LEGO Webshop</title>
+        <link rel="icon" type="image/png" href="/public/favicon.png" />
+        <link rel="stylesheet" href="/src/css/orders-products.css" />
+    </head>
+    <body>
+        <nav class="navbar bg-black w-full h-20 fixed flex flex-row justify-between">
+            <div class="start w-[307px] h-full flex justify-center items-center">
+                <a href="index.html" class="flex flex-row items-center my-3">
+                    <img src="src/assets/LEGO-logo.png" class="h-15"
+                /></a>
+                <p class="text-white text-xl ml-4">Admin Panel</p>
+            </div>
+            <div class="end w-78 flex justify-center items-center text-white">
+                <a href="orders.html" class="bg-[red] border border-[red] rounded-md py-2 px-4">Orders</a>
+                <a href="products.html" class="border rounded-md py-2 px-4 ml-2 hover:bg-neutral-800">Products</a>
+            </div>
+        </nav>
+        <h1 class="pt-25 text-3xl text-center">Bestellingsoverzicht</h1>
+        <table id="bestellingen-tabel" class="mx-auto my-5 w-200">
+            <tr>
+                <th>ID</th>
+                <th>Totaal</th>
+                <th>Datum en Tijd</th>
+            </tr>
+        </table>
+        <script type="module" src="/src/js/orders.js"></script>
+    </body>
+</html>

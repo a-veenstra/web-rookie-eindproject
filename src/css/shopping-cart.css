@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+table {
+    border-bottom: 1px solid lightgray;
+}
+
+th {
+    text-align: start;
+    border-bottom: 1px solid lightgray;
+}
+
+td,
+th {
+    padding: 6px 0;
+}
+
+td:last-child,
+th:last-child {
+    text-align: right;
+}

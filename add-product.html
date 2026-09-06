@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>LEGO Webshop</title>
+        <link rel="icon" type="image/png" href="/public/favicon.png" />
+        <link rel="stylesheet" href="/src/css/add-edit-product.css" />
+    </head>
+    <body>
+        <nav class="navbar bg-black w-full h-20 fixed flex flex-row justify-between">
+            <div class="start w-[307px] h-full flex justify-center items-center">
+                <a href="index.html" class="flex flex-row items-center my-3">
+                    <img src="src/assets/LEGO-logo.png" class="h-15"
+                /></a>
+                <p class="text-white text-xl ml-4">Admin Panel</p>
+            </div>
+            <div class="end w-78 flex justify-center items-center text-white">
+                <a href="orders.html" class="border rounded-md py-2 px-4 hover:bg-neutral-800">Orders</a>
+                <a href="products.html" class="bg-[red] border border-[red] rounded-md py-2 px-4 ml-2">Products</a>
+            </div>
+        </nav>
+        <h1 class="pt-25 text-3xl text-center">Product toevoegen</h1>
+        <div class="container flex flex-col w-200 mt-5 mb-4 mx-auto">
+            <a href="./products.html" class="underline text-blue-600 text-xs w-12">Ga terug</a>
+            <label for="naam">Naam</label>
+            <input type="text" id="naam" />
+            <label for="prijs">Prijs</label>
+            <input type="text" id="prijs" />
+            <label for="afbeelding">Afbeelding</label>
+            <input type="text" id="afbeelding" />
+            <img id="image-preview" class="size-50 mt-4 -ml-1.5" />
+            <button
+                id="add-button"
+                class="mt-4 w-22 h-9 border text-[red] rounded-md hover:text-white hover:bg-[red] cursor-pointer"
+            >
+                Toevoegen
+            </button>
+        </div>
+        <script type="module" src="/src/js/add-product.js"></script>
+    </body>
+</html>
