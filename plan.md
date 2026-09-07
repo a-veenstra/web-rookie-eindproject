@@ -21,7 +21,7 @@ De admin heeft een overzicht van alle bestellingen, en kan producten toevoegen, 
 
 ## Uiterlijk
 
-De website heeft een navbar met het logo links en de winkelwagen rechts (gebruikersgedeelte), of het logo met 'Admin Panel' en "Orders"/"Products"-knoppen (admin-gedeelte). De LEGO-sets zijn zichtbaar als kaarten in een grid. In de winkelwagen zie je een tabel met wat je hebt toegevoegd en het totaalbedrag. Je krijgt een bevestiging te zien na het klikken op "Afrekenen". Bij de admin zijn er tabellen te zien met ID, totaal en datum/tijd bij bestellingen, en ID, naam, prijs en afbeelding-URL bij producten, met knoppen om te bewerken of te verwijderen.
+De website heeft een navbar met het logo links en de winkelwagen rechts (gebruikersgedeelte), of het logo met "Admin Panel" en "Orders"/"Products"-knoppen (admin-gedeelte). De LEGO-sets zijn zichtbaar als cards in een grid. In de winkelwagen zie je een tabel met wat je hebt toegevoegd en het totaalbedrag. Je krijgt een bevestiging te zien na het klikken op "Afrekenen". Bij de admin zijn er tabellen te zien met ID, totaal en datum/tijd bij bestellingen, en ID, naam, prijs en afbeelding-URL bij producten, met knoppen om te bewerken of te verwijderen.
 
 ![Overzicht](src/assets/home.png)
 ![Admin](src/assets/admin.png)
