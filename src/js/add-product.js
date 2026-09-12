@@ -45,7 +45,7 @@ addKnop.addEventListener("click", () => {
         "name": naam,
         "price": prijs,
         "amount_in_cart": 0,
-        "set_img_url": afbeelding
+        "set_img_url": afbeelding,
     };
 
     producten.push(nieuwProduct);

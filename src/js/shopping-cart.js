@@ -65,7 +65,7 @@ bestelKnop.addEventListener("click", () => {
         id: bestellingen.length,
         totaal: totaal,
         datum: new Date().toLocaleDateString("en-US"),
-        tijd: new Date().toLocaleTimeString("en-US")
+        tijd: new Date().toLocaleTimeString("en-US"),
     };
 
     bestellingen.push(nieuweBestelling);

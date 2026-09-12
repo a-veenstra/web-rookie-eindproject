@@ -18,8 +18,12 @@ for (let i = 0; i < producten.length; i++) {
     <td>${product.name}</td>
     <td>€ ${product.price}</td>
     <td>${product.set_img_url}</td>
-    <td class="border-t border-[lightgray]"><a href="edit-product.html?id=${product.id}" class="text-blue-700">Edit</a></td>
-    <td class="border-t border-[lightgray]"><button class="remove-button text-red-700 cursor-pointer">Remove</button></td>`;
+    <td class="border-t border-[lightgray]">
+        <a href="edit-product.html?id=${product.id}" class="text-blue-700">Edit</a>
+    </td>
+    <td class="border-t border-[lightgray]">
+        <button class="remove-button text-red-700 cursor-pointer">Remove</button>
+    </td>`;
 
     tabel.append(rij);
 

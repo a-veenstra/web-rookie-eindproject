@@ -15,7 +15,8 @@ for (let i = 0; i < producten.length; i++) {
     const product = document.createElement("div");
     product.classList.add("product", "w-full", "md:w-71.5", "2xl:w-112");
 
-    product.innerHTML = `<img src="${producten[i].set_img_url}" class="product-afbeelding h-50 2xl:h-96" alt="${producten[i].name}">
+    product.innerHTML = `<img src="${producten[i].set_img_url}" class="product-afbeelding h-50 2xl:h-96"
+    alt="${producten[i].name}">
     <strong>${producten[i].name}</strong>
     <p>€ ${producten[i].price}</p>`;
 
