@@ -29,6 +29,11 @@ addKnop.addEventListener("click", () => {
         return;
     }
 
+    if (prijs < 0) {
+        alert("Bedrag moet groter dan 0 zijn.");
+        return;
+    }
+
     // Nieuw ID = hoogst bestaande ID + 1, zodat de ID's altijd uniek blijven
     let hoogsteId = -1;
 
